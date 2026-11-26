@@ -1,0 +1,25 @@
+name: llm_bench
+description: "On-device LLM benchmark (knowledge/RAG, TTFT & tok/s, tool calling) powered by NobodyWho."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.11.1
+  nobodywho: 6.0.0
+  path: any
+  shadcn_ui: ^0.61.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
